@@ -1,0 +1,23 @@
+{
+  "jti": "614cdcda-82a1-429a-b877-1a5c575324e8",
+  "sub": "repo:MarkLodato/oidc-test:ref:refs/heads/main",
+  "aud": "https://github.com/MarkLodato",
+  "ref": "refs/heads/main",
+  "sha": "51d8e23d23ab48ee0d1c539dc5c4788369ce2bb9",
+  "repository": "MarkLodato/oidc-test",
+  "repository_owner": "MarkLodato",
+  "run_id": "1409438232",
+  "run_number": "2",
+  "run_attempt": "1",
+  "actor": "MarkLodato",
+  "workflow": "Dump OIDC to logs",
+  "head_ref": "",
+  "base_ref": "",
+  "event_name": "push",
+  "ref_type": "branch",
+  "job_workflow_ref": "MarkLodato/oidc-test/.github/workflows/oidc-test.yml@refs/heads/main",
+  "iss": "https://token.actions.githubusercontent.com",
+  "nbf": 1635795550,
+  "exp": 1635796450,
+  "iat": 1635796150
+}
