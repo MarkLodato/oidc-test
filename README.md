@@ -1,5 +1,7 @@
 # GitHub OIDC Security Demo
 
+**Dummy update for the pull request.**
+
 This repo demonstrates that, when verifying a
 [GitHub OIDC token](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect),
 it is critical to verify the full `sub`, includin both repo and ref names.
