@@ -74,3 +74,31 @@ And here is a payload on `evil-branch`:
   "iat": 1635796366
 }
 ```
+
+For reference, this is what a `pull_request` event payload looks like:
+
+```json
+{
+  "jti": "20d7e6a8-badb-4a6d-8d38-1f559228131c",
+  "sub": "repo:MarkLodato/oidc-test:pull_request",
+  "aud": "https://github.com/MarkLodato",
+  "ref": "refs/pull/1/merge",
+  "sha": "f902fb238e1733c2ff00f1d04ecb3cab879b389f",
+  "repository": "MarkLodato/oidc-test",
+  "repository_owner": "MarkLodato",
+  "run_id": "1412557312",
+  "run_number": "6",
+  "run_attempt": "1",
+  "actor": "MarkLodato",
+  "workflow": "Dump OIDC to logs",
+  "head_ref": "pull-request-branch",
+  "base_ref": "main",
+  "event_name": "pull_request",
+  "ref_type": "branch",
+  "job_workflow_ref": "MarkLodato/oidc-test/.github/workflows/oidc-test.yml@refs/pull/1/merge",
+  "iss": "https://token.actions.githubusercontent.com",
+  "nbf": 1635860456,
+  "exp": 1635861356,
+  "iat": 1635861056
+}
+```
